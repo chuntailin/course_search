@@ -1,0 +1,50 @@
+
+<h2>檢視課程</h2>
+<h3> 課程名稱：<%= @course.name %></h3>
+
+<p>
+	<div>
+	教師名稱：<%= @course.teacher %>
+	</div>
+
+	<div>
+	教室：<%= @course.classroom %>
+	</div>
+	
+	<div>
+	時間：<%= @course.time %>
+	</div>
+	
+	<div>
+	學分數：<%= @course.credit %>
+	</div>
+
+</p>
+<%= link_to "返回課程資訊",courses_path %>
+<!-- p>
+  <strong>課程名稱:</strong>
+  <%= @course.name %>
+</p>
+
+<p>
+  <strong>授課老師:</strong>
+  <%= @course.teacher %>
+</p>
+
+<p>
+  <strong>課程地點:</strong>
+  <%= @course.classroom %>
+</p>
+
+<p>
+  <strong>課程時間:</strong>
+  <%= @course.time %>
+</p>
+
+<p>
+  <strong>學分數:</strong>
+  <%= @course.credit %>
+</p>
+
+<%= link_to '修改課程', edit_course_path(@course) %> |
+<%= link_to '返回課程查詢系統', courses_path %> -->
